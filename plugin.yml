@@ -1,0 +1,14 @@
+name: RyveMusic
+main: com.bukkit.arthurh.RyveMusic.RyveMusic
+website: http://mine-elite.fr
+authors: [Timoun, Klezst]
+version: 1.4.2
+softdepend: [Spout]
+description: >
+             lance les musiques
+commands:             
+  rm:
+    description: Gere la musique
+    usage: |
+           /rm <global:list:play:stop> [suite]
+           Exemple: /rm list
